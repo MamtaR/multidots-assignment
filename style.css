@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    overflow-x: hidden;
+}
+p{
+    color: #676767;
+    font-size: 16px;
+}
+section.banner{
+    background: url("banner.png");
+    padding: 40px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.banner .bg-light{
+    background: none !important;
+}
+li.nav-item a {
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.mid{
+    padding: 150px 0 60px;
+}
+.mid h5 {
+    color: #ff841b;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+.mid h2 {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    padding: 20px 100px;
+    line-height: 65px;
+}
+.mid p{
+    color: #fff;
+    text-align: center;
+}
+.mid button.btn.btn-primary {
+    background: #ff841b;
+    border: none;
+    margin: 5% auto;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+section.banner div#navbarSupportedContent {
+    float: right;
+}
+section.services{
+    background: url("services.png");
+    padding: 100px 0;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.serv {
+    background: #f2f2f2;
+    padding: 40px;
+    width: 60%;
+    margin: 0 auto;
+}
+.serv h2, section.finishedproj h2, section.contactus h2 {
+    color: #001a53;
+    font-weight: 500;
+    font-size: 50px;
+}
+.serv h3, section.finishedproj h3, section.contactus h3 {
+    font-size: 22px;
+    color: #676767;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.serv img {
+    width: 15%;
+}
+.serv p{
+    font-size: 16px !important;
+    color: #676767;
+    line-height: 20px;
+    margin-left: 47px;
+}
+.serv span{
+    color: #001a53;
+    font-size: 18px;
+    font-weight: 600;
+}
+section.finishedproj, section.contactus {
+    padding: 60px 150px;
+}
+
+section.getaquote{
+    margin-top: 15%;
+    background: url("getaquote.png");
+    padding: 90px 0;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+section.getaquote h3 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 500;
+}
+section.getaquote p {
+    color: #fff;
+}
+section.getaquote button.btn.btn-primary {
+    margin: 30px auto;
+    display: block;
+    background: #ff841b;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+}
+.satisfiedcust{
+    background: url("satisfiedcustbg.png");
+    padding: 100px 0;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+section.satisfiedcust img {
+    margin: 0 auto;
+    display: block;
+    width: 25%;
+}
+section.satisfiedcust h4 {
+    color: #ff841b;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 20px 0 5px;
+    text-align: center;
+}
+section.satisfiedcust p {
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+}
+section.contactus {
+    background: #fafafa;
+}
+section.contactus input,section.contactus textarea {
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 10px;
+    border: 1px solid #fafafa;
+}
+section.contactus button.btn.btn-primary {
+    background: #ff841b;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.address h4{
+    color: #001a53;
+    font-size: 16px;
+    font-weight: 600;
+} 
+.address {
+    padding: 22% 5% 0% 0;
+}
+.social i {
+    color: #ff841b;
+    font-size: 30px;
+    padding: 0 10px 0 0;
+}
+section.humour{
+    background: url("humourbg.png");
+    padding: 100px 0;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+section.humour h3 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+}
+section.humour h4{
+    font-size: 50px;
+    color: #Fff;
+}
+section.humour p{
+    color: #fff;
+    line-height: 22px;
+    font-size: 16px;
+    padding: 20px 0 0;
+}
+.humbox {
+        margin: 0 auto;
+    background: #fff;
+    width: 60%;
+    position: absolute;
+    left: 25%;
+    bottom: -30%;
+    padding: 0 15px;
+    box-shadow: 5px 5px 5px #d5d1d1;
+}
+.humbox .col-md-6 {
+    padding: 0px;
+}
+.vision{
+    background: url("visionbg.png");
+    padding: 40px 0;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.mission {
+    padding: 40px 0 0;
+    width: 100%;
+}
+
+.vision p , .mission p{
+    color: #676767 !important;
+    font-size: 16px;
+    line-height: 21px !important;
+    text-align: center;
+}
+.vision h3, .mission h3 {
+    color: #001a53 !important;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.vision img, .mission img {
+    margin: 0 auto;
+    display: block;
+}
+.humbox .col-md-6 {
+    padding: 0px;
+}
+/*Slider*/
+
+.carousel-indicators li{
+    background-color: #e0e0e0 !important;
+}
+.carousel-indicators .active{
+    background-color: #ffa558 !important; 
+}
+
+section.finishedproj #myCarousel {
+    height: 630px;
+}
+section.finishedproj img {
+    width: 97%;
+}
+div#myCarousel p {
+    font-size: 16px;
+    color: #676767;
+    line-height: 20px;
+    padding: 0 10px 0 0;
+    text-align: center;
+}
+div#myCarousel h4 {
+    color: #001a53;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0 10px;
+    font-size: 22px;
+}
+/* section.testimonials .carousel-indicators .active{
+    background-color: #fff;
+} */
+
+/** testimonial slider**/
+section.testimonials {
+    padding: 95px 0;
+}
+section.testimonials img {
+    width: 80%;
+}
+section.testimonials p{
+    font-size: 16px;
+    line-height: 22px;
+}
+section.testimonials h4 {
+    font-size: 24px;
+    color: #001a53;
+    font-weight: 600;
+}
+div#myCarousel_testi {
+    height: 330px;
+}
+section.testimonials h3{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #676767;
+    padding: 0 20px 20px;
+}
+section.testimonials h2{
+    color: #001a53;
+    font-weight: 500;
+    font-size: 50px;
+    padding: 20px;
+    margin: 0 0 22px;
+}
+section.footer {
+    background: url("footerbg.png");
+    padding: 100px 0;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+ul.footernav {
+    display: flex;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+section.footer img {
+    margin: 0 auto 30px;
+    display: block;
+}
+section.footer p {
+    text-align: center;
+    color: #fff;
+    padding: 15px 0 0;
+    font-weight: 400;
+}
+section.footer span {
+    color: #ff951c;
+    font-weight: 500;
+}
+@media screen and (max-width: 767px){
+    section.banner {
+   
+    padding: 20px 0;
+    }
+    .mid h2 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    /* padding: 20px 100px; */
+    line-height: 40px;
+}
+.mid {
+    padding: 20px;
+}
+section.finishedproj, section.contactus {
+    padding: 20px;
+}
+.serv h2, section.finishedproj h2, section.contactus h2 {
+    font-size: 30px;
+}
+section.testimonials {
+    padding: 20px 0;
+}
+section.testimonials h3 {
+    padding: 0 20px 0px;
+}
+section.testimonials h2 {
+    font-size: 30px;
+    padding: 0 0px 0 20px;
+    margin: 0 0 22px;
+}
+div#myCarousel_testi {
+    height: 800px;
+}
+.satisfiedcust {
+    padding: 20px 0;
+    background-size: cover;
+}
+section.satisfiedcust img {
+    margin: 20px auto 10px;
+    display: block;
+    width: auto;
+}
+.address {
+    padding: 5% 0;
+}
+section.footer {
+    padding: 20px 0;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.serv {
+    background: #f2f2f2;
+    padding: 40px;
+    width: 100%;
+    margin: 0 auto;
+}
+section.services {
+    padding: 20px 0;
+    background-size: cover;
+}
+ul.footernav {
+    display: block;
+    text-align: center;
+}
+section.finishedproj #myCarousel {
+    height: auto;
+}
+section.getaquote {
+    margin-top: 95%;
+    background: url(getaquote.png);
+    padding: 20px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.humbox {
+    margin: 0 auto;
+    background: #fff;
+    width: 87%;
+    position: absolute;
+    left: 4%;
+    bottom: -50%;
+    padding: 0 15px;
+    box-shadow: 5px 5px 5px #d5d1d1;
+}
+section.humour h4 {
+    font-size: 30px;
+    color: #Fff;
+}
+section.humour{
+    background-size: cover;
+    padding: 80px 0;
+}
+}
